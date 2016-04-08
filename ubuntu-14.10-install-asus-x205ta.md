@@ -54,6 +54,7 @@ apt-get install p7zip-full
 wget http://releases.ubuntu.com/14.10/ubuntu-14.10-desktop-amd64.iso
 
 # Assuming USB flashdrive assigned to /dev/sdb
+lsblk
 # THIS WILL DELETE ALL DATA ON /dev/sdb - make sure you know what you are doing!
 
 sgdisk --zap-all /dev/sdb
